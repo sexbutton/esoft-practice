@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 464px;
+  background-color: #ffffff;
+  gap: 20px;
+  padding: 40px 24px;
+  border-radius: 16px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 24px; /* Исправлено: свойство size заменено на font-size */
+  line-height: 36px;
+  margin: 0;
+}
+
+/* Дополнительные стили для блока авторизации, если он единственный на странице */
+.container:only-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
