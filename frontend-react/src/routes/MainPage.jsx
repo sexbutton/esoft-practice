@@ -1,4 +1,4 @@
-import { Header, ActivePlayers } from "../components";
+import { Header, ActivePlayers, RatingTable } from "../components";
 
 export function MainPage() {
   return (

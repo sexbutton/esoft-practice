@@ -12,7 +12,7 @@ export function Auth() {
         <Input valid="" placeholder="Логин" type="input"></Input>
         <Input valid="" placeholder="Пароль" type="password"></Input>
       </div>
-      <Button>Войти</Button>
+      <Button type="auth">Войти</Button>
     </div>
   );
 }

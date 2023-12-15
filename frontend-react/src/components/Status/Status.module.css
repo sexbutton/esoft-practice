@@ -1,0 +1,55 @@
+.activeStatus{
+    display: flex;
+    max-height: 32px;
+    padding: 4px 12px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 6px;
+    color: #FFFFFF;
+
+    color: var(--Gray-White, #FFF);
+/* Body / 16px regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.24px;
+}
+
+.blockStatus{
+    display: flex;
+padding: 4px 12px;
+align-items: center;
+gap: 4px;
+flex: 1 0 0;
+border-radius: 6px;
+
+color: var(--Gray-White, #FFF);
+text-align: center;
+/* Body / 16px regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.24px;
+}
+
+
+.active{
+    background-color: #A8D37F;
+}
+
+.block{
+   background-color: #EC7777;
+}
+
+.inGame{
+    background-color: #87CAE8;
+}
+
+.ready{
+    background-color: #A8D37F;
+}
