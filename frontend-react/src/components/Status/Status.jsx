@@ -4,10 +4,10 @@ import cn from "classnames";
 export function Status({children, type}) {
     if (type == "activePlayers"){
         if (type == "true"){
-            return <span className={cn(styles.activeStatus, styles.re)}>{children}</span>
+            return <span className={cn(styles.activeStatus)}>{children}</span>
         }
         else {
-            return <span className={cn(styles.activeStatus, styles.)}>{children}</span>
+            return <span className={cn(styles.activeStatus)}>{children}</span>
         }
         
     }
