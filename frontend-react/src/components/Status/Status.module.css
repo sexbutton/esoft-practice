@@ -1,8 +1,10 @@
 .activeStatus{
     display: flex;
-    max-height: 32px;
+    height: 32px;
+    width: 76px;
     padding: 4px 12px;
     align-items: center;
+    justify-content: center;
     gap: 4px;
     align-self: stretch;
     border-radius: 6px;
