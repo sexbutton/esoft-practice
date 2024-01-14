@@ -17,7 +17,7 @@
   gap: 16px;
 }
 
-span {
+.actionBar span {
   padding: 4px 12px;
   border-radius: 200px;
   font-size: 16px;
