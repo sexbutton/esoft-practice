@@ -6,18 +6,15 @@ export function Input(props) {
     <div className={styles.container}>
       <input
         className={cn(styles.input, {
-          [styles.borderFalse]: props.valid == "false",
+          [styles.error]: props.state == "error",
         })}
-        type={props.type}
         placeholder={props.placeholder}
       />
-      <span
-        className={cn(styles.status, {
-          [styles.statusFalse]: props.valid == "false",
-        })}
-      >
-        {"Неверный " + props.placeholder}
-      </span>
+      {props.state === "error" && (
+        <span className={cn(styles.status, styles.span)}>
+          {"Неверный " + props.placeholder}
+        </span>
+      )}
     </div>
   );
 }

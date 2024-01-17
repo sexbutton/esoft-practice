@@ -1,0 +1,32 @@
+.main {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--Gray-White, #fff);
+  text-align: center;
+  /* Body / 16px medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.24px;
+  background: #60c2aa;
+  border: none;
+  cursor: pointer;
+}
+.main:hover {
+  background: #3ba189;
+}
+.main:disabled {
+  background: rgba(96, 194, 170, 0.3);
+  cursor: no-drop;
+}
+.sizeM {
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+.sizeS {
+  padding: 8px 16px;
+  border-radius: 8px;
+}

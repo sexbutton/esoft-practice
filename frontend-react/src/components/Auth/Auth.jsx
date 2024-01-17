@@ -1,18 +1,15 @@
 import styles from "./Auth.module.css";
 import { Input } from "../Input/Input";
-import { Button } from "../Button/Button";
+import { Status } from "../Status/Status";
 import dog from "./dog.png";
+import { ButtonPrimary } from "../ButtonPrimary/ButtonPrimary";
 
 export function Auth() {
   return (
     <div className={styles.container}>
-      <img src={dog} alt="" />
-      <h1>Войдите в игру</h1>
-      <div className={styles.inputs}>
-        <Input valid="" placeholder="Логин" type="input"></Input>
-        <Input valid="" placeholder="Пароль" type="password"></Input>
-      </div>
-      <Button type="auth">Войти</Button>
+      <ButtonPrimary disabled size="S" icon="nonIcon">
+        Отправить
+      </ButtonPrimary>
     </div>
   );
 }

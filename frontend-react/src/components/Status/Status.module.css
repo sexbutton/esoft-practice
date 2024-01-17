@@ -1,57 +1,36 @@
-.activeStatus{
-    display: flex;
-    height: 32px;
-    width: 76px;
-    padding: 4px 12px;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    align-self: stretch;
-    border-radius: 6px;
-    color: #FFFFFF;
+.container {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--Gray-White, #fff);
+  text-align: center;
 
-    color: var(--Gray-White, #FFF);
-/* Body / 16px regular */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.24px;
+  /* Body / 16px medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.24px;
 }
-
-.blockStatus{
-    display: flex;
-padding: 4px 12px;
-align-items: center;
-gap: 4px;
-flex: 1 0 0;
-border-radius: 6px;
-
-color: var(--Gray-White, #FFF);
-text-align: center;
-/* Body / 16px regular */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.24px;
+.sizeM {
+  padding: 4px 12px;
+  border-radius: 6px;
 }
-
-
-.active{
-    background-color: #A8D37F;
+.sizeS {
+  padding: 4px;
+  border-radius: 4px;
 }
-
-.block{
-   background-color: #EC7777;
+.ready {
+  background: #a8d37f;
 }
-
-.inGame{
-    background-color: #87CAE8;
+.blocked {
+  background: #ec7777;
 }
-
-.ready{
-    background-color: #A8D37F;
+.inGame {
+  background: #87cae8;
+}
+.outOfTheGame {
+  background: #ededed;
+  color: var(--Gray-700, #373745);
 }

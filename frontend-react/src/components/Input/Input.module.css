@@ -1,32 +1,32 @@
 .input {
-  width: 352px;
-  height: 28px;
-  border-radius: 12px;
-  border: 1px solid #dcdcdf;
+  display: flex;
+  width: 270px;
   padding: 12px 20px;
+  align-items: flex-start;
   gap: 8px;
-  color: #373745;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.24px;
+  border-radius: 12px;
+  background: var(--Gray-White, #fff);
+  border: 1px solid var(--Gray-100, #dcdcdf);
+}
+.input:hover {
+  border: 1px solid #60c2aa;
+}
+.input:focus {
   outline: none;
-  font-family: "Roboto";
+  border: 1px solid #3ba189;
 }
-
-.borderFalse {
-  border: 1px solid #e93e3e;
+.error {
+  border: 1px solid var(--Gray-100, #e93e3e);
 }
+.span {
+  align-self: stretch;
+  color: var(--System-Danger-400, #e93e3e);
 
-.status {
-  display: none;
+  /* Body / 12px regular */
+  font-family: Roboto;
   font-size: 12px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 16px; /* 133.333% */
   letter-spacing: 0.25px;
-  color: #e93e3e;
-}
-
-.statusFalse {
-  display: block;
 }
