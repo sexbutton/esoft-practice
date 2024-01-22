@@ -1,0 +1,11 @@
+.main {
+  display: inline-flex;
+  padding: 4px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.svg:hover {
+  fill: #3ba189;
+}

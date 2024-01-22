@@ -1,0 +1,24 @@
+.main {
+  display: inline-flex;
+  padding: 4px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 200px;
+  color: var(--Gray-700, #373745);
+  cursor: pointer;
+
+  /* Body / 16px medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.24px;
+}
+.main:hover {
+  background: var(--Gray-50, #f7f7f7);
+}
+.activeTab {
+  background: #60c2aa;
+  color: var(--Gray-White, #fff);
+}

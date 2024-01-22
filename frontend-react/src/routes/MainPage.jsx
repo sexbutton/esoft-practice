@@ -1,10 +1,16 @@
-import { Header, ActivePlayers, RatingTable } from "../components";
+import {
+  Header,
+  ActivePlayers,
+  RatingTable,
+  GameField,
+  HistoryGames,
+} from "../components";
 
 export function MainPage() {
   return (
     <>
       <Header></Header>
-      <ActivePlayers></ActivePlayers>
+      <HistoryGames></HistoryGames>
     </>
   );
 }

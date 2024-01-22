@@ -1,52 +1,124 @@
 import styles from "./ActivePlayers.module.css";
-import switcherFalse from "./switcherFalse.svg";
-import switcherTrue from "./switcherTrue.svg";
+import { Status } from "../Status/Status";
+import { ButtonPrimary } from "../ButtonPrimary/ButtonPrimary";
+import { SwitcherFalseIcon } from "./switcherFalseIcon";
+import { SwitcherTrueIcon } from "./switcherTrueIcon";
 import { useState } from "react";
 
-import { Status } from "../Status/Status";
-
 export function ActivePlayers() {
-  // Состояние для отслеживания текущего активного свитчера
-  const [activeSwitch, setActiveSwitch] = useState(switcherFalse); // 'first' или 'second', в зависимости от вашей логики
+  const [isTrue, setIsTrue] = useState(false);
 
-  // Обработчик события при нажатии на первый свитчер
-  const SwitchClick = () => {
-    if (activeSwitch == switcherFalse) {
-      setActiveSwitch(switcherTrue);
-    } else {
-      setActiveSwitch(switcherFalse);
-    }
+  // Создайте функцию-обработчик для изменения состояния
+  const handleToggle = () => {
+    setIsTrue(!isTrue);
   };
-
   return (
     <div className={styles.container}>
-      <div className={styles.head}>
-        <h1>Активные игроки</h1>
-        <div className={styles.switcher}>
-          <label htmlFor="">Только свободные</label>
-          <img src={activeSwitch} onClick={SwitchClick} />
+      <div className={styles.body}>
+        <div className={styles.header}>
+          <span className={styles.textHeader}>Активные игроки</span>
+          <div className={styles.switcher}>
+            <span>Только свободные</span>
+            {isTrue ? (
+              <SwitcherTrueIcon onClick={handleToggle}></SwitcherTrueIcon>
+            ) : (
+              <SwitcherFalseIcon onClick={handleToggle}></SwitcherFalseIcon>
+            )}
+          </div>
+        </div>
+        <div className={styles.list}>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="inGame"></Status>
+              <ButtonPrimary size="M" icon="nonIcon" disabled>
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <span>Александров Игнат Анатолиевич</span>
+            <div className={styles.right}>
+              <Status size="M" state="ready"></Status>
+              <ButtonPrimary size="M" icon="nonIcon">
+                Позвать играть
+              </ButtonPrimary>
+            </div>
+          </div>
         </div>
       </div>
-      <table>
-        <tbody>
-          <tr className={styles.row}>
-            <td className={styles.col1}>Александр Игнат Анатольевич</td>
-            <td className={styles.col2}>
-              <Status type="activePlayers" status="true">
-                Свободен
-              </Status>
-            </td>
-          </tr>
-          <tr className={styles.row}>
-            <td className={styles.col1}>Александр Игнат Анатольевич</td>
-            <td className={styles.col2}>
-              <Status type="activePlayers" status="false">
-                В игре
-              </Status>
-            </td>
-          </tr>
-        </tbody>
-      </table>
     </div>
   );
 }

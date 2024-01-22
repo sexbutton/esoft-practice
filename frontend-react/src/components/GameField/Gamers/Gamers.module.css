@@ -1,0 +1,68 @@
+.gamers {
+  display: flex;
+  width: 500px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  background: var(--Gray-White, #fff);
+  box-sizing: border-box;
+
+  /* Elevation / Lv2 */
+  box-shadow: 0px 4px 20px 0px rgba(44, 57, 121, 0.09);
+}
+.textGamers {
+  color: var(--Gray-700, #373745);
+  text-align: center;
+
+  /* Headers / H1 – bold */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.gamer {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.text span:nth-child(1) {
+  color: var(--Gray-700, #373745);
+  text-align: center;
+
+  /* Headers / H2 – regular */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.15px;
+}
+.text span:nth-child(2) {
+  color: var(--Gray-400, #898993);
+  text-align: center;
+
+  /* Body / 14px regular */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.25px;
+}

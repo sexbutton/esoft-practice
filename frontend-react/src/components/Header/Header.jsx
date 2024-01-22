@@ -1,19 +1,20 @@
 import styles from "./Header.module.css";
-import logo from "./logo.svg";
-import exit from "./exit.svg";
+import { Tab } from "../Tab/Tab";
+import { ExitToApp } from "../ExitToApp/ExitToApp";
+import { LogoIcon } from "./LogoIcon";
 
 export function Header() {
   return (
-    <div className={styles.container}>
-      <img src={logo} />
-      <div className={styles.actionBar}>
-        <span>Игровое поле</span>
-        <span className={styles.active}>Рейтинг</span>
-        <span>Активные игроки</span>
-        <span>История игр</span>
-        <span>Список игроков</span>
+    <div className={styles.main}>
+      <LogoIcon></LogoIcon>
+      <div className={styles.links}>
+        <Tab state="Active">Игровое поле</Tab>
+        <Tab>Рейтинг</Tab>
+        <Tab>Активные игроки</Tab>
+        <Tab>История игр</Tab>
+        <Tab>Список игроков</Tab>
       </div>
-      <img src={exit} />
+      <ExitToApp></ExitToApp>
     </div>
   );
 }

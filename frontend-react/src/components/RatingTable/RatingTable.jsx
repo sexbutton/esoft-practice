@@ -18,118 +18,149 @@ export function RatingTable() {
         <div className={styles.tableWrapper}>
           <tbody>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
             <tr className={styles.row}>
-              <td className={cn(styles.col1, styles.td)}>Александров Игнат Анатолиевич</td>
+              <td className={cn(styles.col1, styles.td)}>
+                Александров Игнат Анатолиевич
+              </td>
               <td className={cn(styles.col2, styles.td)}>24534</td>
               <td className={cn(styles.col3, styles.td)}>9824</td>
               <td className={cn(styles.col4, styles.td)}>1222</td>
               <td className={cn(styles.col5, styles.td)}>87%</td>
             </tr>
-            
           </tbody>
         </div>
       </table>

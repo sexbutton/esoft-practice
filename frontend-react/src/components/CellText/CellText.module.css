@@ -1,0 +1,22 @@
+.main {
+  display: inline-flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--Gray-700, #373745);
+  text-align: center;
+  /* Body / 16px medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.24px;
+}
+.Header {
+  font-weight: 500;
+}
+
+.noHeader {
+  font-weight: 400;
+}

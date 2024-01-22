@@ -1,10 +1,11 @@
 .container {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  min-width: 76px;
   gap: 4px;
   color: var(--Gray-White, #fff);
   text-align: center;
-
   /* Body / 16px medium */
   font-family: Roboto;
   font-size: 16px;

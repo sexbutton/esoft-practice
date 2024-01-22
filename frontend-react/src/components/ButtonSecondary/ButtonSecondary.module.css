@@ -1,32 +1,42 @@
 .main {
   display: inline-flex;
-  align-items: flex-start;
   gap: 8px;
-  color: var(--Gray-White, #fff);
+  color: var(--Gray-700, #373745);
   text-align: center;
   /* Body / 16px medium */
   font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.24px;
-  background: #60c2aa;
+  background: var(--Gray-50, #f7f7f7);
   border: none;
-  cursor: pointer;
 }
 .main:hover {
-  background: #3ba189;
+  background: var(--Gray-100, #dcdcdf);
 }
 .main:disabled {
-  background: rgba(96, 194, 170, 0.3);
-  cursor: no-drop;
+  opacity: 0.3;
+  background: var(--Gray-50, #f7f7f7);
 }
-.sizeM {
+.sizeMedium {
+  align-items: flex-start;
   padding: 12px 20px;
   border-radius: 12px;
+  font-size: 16px;
 }
-.sizeS {
+.sizeMSmall {
+  align-items: center;
   padding: 8px 16px;
   border-radius: 8px;
+  font-size: 16px;
+}
+.sizeSSmall {
+  padding: 8px 16px;
+  align-items: flex-start;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.iconYes {
+  align-items: center;
 }

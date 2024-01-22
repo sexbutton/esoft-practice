@@ -73,7 +73,10 @@
   gap: 10px;
 }
 
-.col2, .col3, .col4, .col5  {
+.col2,
+.col3,
+.col4,
+.col5 {
   display: flex;
   width: 108px;
   padding: 8px;
@@ -82,7 +85,7 @@
   gap: 10px;
 }
 
-.td.col3{
+.td.col3 {
   color: var(--system-success-400, #69b849);
 }
 .td.col4 {
