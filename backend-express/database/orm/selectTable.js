@@ -30,4 +30,4 @@ class SelectTable {
   }
 }
 
-export default InsertTable;
+export default SelectTable;

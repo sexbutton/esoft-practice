@@ -1,10 +1,16 @@
-import express, { Request, Response } from "express";
-import session from "express-session";
+const express = require("express");
+const session = require("express-session");
+const cookieParser = require("cookie-parser");
+const bodyParser = require("body-parser");
+const path = require("path");
 
 const app = express();
-const port = 3001;
+app.use(bodyParser.json());
 
-// ЗАПУСК СЕРВЕРА
-app.listen(port, () => {
-  console.log(`Сервер запущен на http://localhost:${port}`);
-});
+const PORT = 3001;
+
+var users = [
+  { username: "admin", password: "12345" },
+  { username: "foo", password: "bar" },
+  { username: "user", password: "test" },
+];

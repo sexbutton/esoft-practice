@@ -50,7 +50,6 @@ class CreateTable {
       await this.db.destroy();
     }
   }
-
   async createTables() {
     this.createTableAuthUsers();
     this.createTableUsers();
